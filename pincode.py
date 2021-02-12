@@ -10,7 +10,7 @@ while entry != correct_pin and tries < 3:
         print("Your pin is correct.")
         break
     else:
-        tries+=1
+        tries += 1
     print("You have had " + str(tries) + " attempt(s).")
 
 # while entry != correct_pin:
@@ -19,7 +19,7 @@ while entry != correct_pin and tries < 3:
 #         print("Your pin is correct.")
 #         break
 #     else:
-#         tries+=1
+#         tries += 1
 #         if tries == 3:
 #             break
 #     print("You have had " + str(tries) + " attempt(s).")
