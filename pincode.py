@@ -5,7 +5,7 @@ entry = ""
 tries = 0
 
 while entry != correct_pin and tries < 3:
-    entry = str(getpass.getpass("Enter your PIN: "))
+    entry = str(getpass.getpass(prompt="Enter your PIN: "))
     if entry == correct_pin:
         print("Your pin is correct.")
         break
